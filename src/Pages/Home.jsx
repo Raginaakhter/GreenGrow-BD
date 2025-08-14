@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 // import treeImg from "../assets/tree_image.jpg";
 import tree_image from "../assets/tree_image.jpg"
-import { div } from "framer-motion/client";
+
 import Category from "../components/category";
 
 export default function Hero() {

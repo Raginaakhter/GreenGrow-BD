@@ -7,29 +7,65 @@ export default function Shop() {
   const { categoryId } = useParams(); // URL থেকে category id পাওয়া
   const { i18n, t } = useTranslation();
   const [trees, setTrees] = useState([]);
+  const [loading, setLoading] = useState(true);
   const lang = i18n.language;
 
-useEffect(() => {
-  fetch("/trees.json")
-    .then(res => res.json())
-    .then(data => {
-      if (categoryId) {
-      const filtered = data.filter(item => item.category === categoryId);
+  // Numeric categoryId to actual category string mapping
+  const categoryMap = {
+    "01": "fol",
+    "02": "ful",
+    "03": "sobji",
+    "04": "dhan",
+    "05": "osodhi",
+    "06": "badam",
+    "07": "shade-tree"
+  };
 
-        setTrees(filtered);
-      } else {
-        setTrees(data);
-      }
-    });
-}, [categoryId]);
+  useEffect(() => {
+    setLoading(true); // নতুন fetch শুরু
+    fetch("/trees.json")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("All data:", data); // check JSON load হয়েছে কিনা
+        let filteredData = data;
+
+        if (categoryId && categoryMap[categoryId]) {
+          filteredData = data.filter(
+            (item) => item.category === categoryMap[categoryId]
+          );
+          console.log("Filtered data:", filteredData); // check filter হচ্ছে কিনা
+          console.log("categoryId from URL:", categoryId);
+          console.log(
+            "All categories in data:",
+            data.map((item) => item.category)
+          );
+        }
+
+        setTrees(filteredData);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Error fetching JSON:", err);
+        setTrees([]);
+        setLoading(false);
+      });
+  }, [categoryId]);
+
+  if (loading) {
+    return <p className="text-center mt-10">Loading...</p>;
+  }
 
   return (
     <div className="px-4 md:px-8">
       {/* Marquee just below Navbar */}
       <div className="mt-18 mb-8 flex justify-center">
         <div className="w-full md:w-full bg-gradient-to-r from-green-200 to-green-100 py-3 rounded shadow-lg overflow-hidden">
-          <Marquee speed={50} gradient={false} className="text-lg font-semibold text-green-900 text-center">
-            {t('marquee_text')}
+          <Marquee
+            speed={50}
+            gradient={false}
+            className="text-lg font-semibold text-green-900 text-center"
+          >
+            {t("marquee_text")}
           </Marquee>
         </div>
       </div>
@@ -45,7 +81,7 @@ useEffect(() => {
         </p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
-          {trees.map(item => (
+          {trees.map((item) => (
             <div
               key={item.id}
               className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition transform hover:-translate-y-1 relative overflow-hidden"
@@ -57,14 +93,20 @@ useEffect(() => {
               />
               <div className="p-4">
                 <h2 className="font-bold text-lg mb-1">{item.name[lang]}</h2>
-                <p className="text-gray-600 text-sm mb-2">{item.description[lang]}</p>
-                <p className="text-green-600 font-semibold mb-1">৳ {item.price}</p>
-                <p className="italic text-xs text-gray-500">{item.benefits[lang]}</p>
+                <p className="text-gray-600 text-sm mb-2">
+                  {item.description[lang]}
+                </p>
+                <p className="text-green-600 font-semibold mb-1">
+                  ৳ {item.price}
+                </p>
+                <p className="italic text-xs text-gray-500">
+                  {item.benefits[lang]}
+                </p>
               </div>
 
               {/* Cart Button */}
               <button className="absolute bottom-3 right-3 bg-green-500 text-white px-4 py-1 rounded-full shadow hover:bg-green-600 transition font-medium text-sm">
-                {t('Add_to_cart') || "Add to Cart"}
+                {t("Add_to_cart") || "Add to Cart"}
               </button>
             </div>
           ))}
