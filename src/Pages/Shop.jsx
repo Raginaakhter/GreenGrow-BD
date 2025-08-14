@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Marquee from "react-fast-marquee";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function Shop() {
-  const { categoryId } = useParams(); // URL থেকে category id পাওয়া
+  const { categoryId } = useParams(); 
   const { i18n, t } = useTranslation();
   const [trees, setTrees] = useState([]);
   const [loading, setLoading] = useState(true);
   const lang = i18n.language;
 
-  // Numeric categoryId to actual category string mapping
+
   const categoryMap = {
     "01": "fol",
     "02": "ful",
@@ -22,18 +22,18 @@ export default function Shop() {
   };
 
   useEffect(() => {
-    setLoading(true); // নতুন fetch শুরু
+    setLoading(true);
     fetch("/trees.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log("All data:", data); // check JSON load হয়েছে কিনা
+        console.log("All data:", data); 
         let filteredData = data;
 
         if (categoryId && categoryMap[categoryId]) {
           filteredData = data.filter(
             (item) => item.category === categoryMap[categoryId]
           );
-          console.log("Filtered data:", filteredData); // check filter হচ্ছে কিনা
+          console.log("Filtered data:", filteredData); 
           console.log("categoryId from URL:", categoryId);
           console.log(
             "All categories in data:",
@@ -105,9 +105,12 @@ export default function Shop() {
               </div>
 
               {/* Cart Button */}
-              <button className="absolute bottom-3 right-3 bg-green-500 text-white px-4 py-1 rounded-full shadow hover:bg-green-600 transition font-medium text-sm">
+             
+              <Link to ="/cart"> <button className="absolute bottom-3 right-3 bg-green-500 text-white px-4 py-1 rounded-full shadow hover:bg-green-600 transition font-medium text-sm">
                 {t("Add_to_cart") || "Add to Cart"}
-              </button>
+              </button></Link>
+
+
             </div>
           ))}
         </div>

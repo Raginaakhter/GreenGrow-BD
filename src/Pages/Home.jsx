@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import tree_image from "../assets/tree_image.jpg"
 
 import Category from "../components/category";
+import HomeSection from "./HomeSection";
 
 export default function Hero() {
     const { t } = useTranslation();
@@ -50,6 +51,9 @@ export default function Hero() {
         </div>
         <div>
             <Category></Category>
+        </div>
+        <div>
+            <HomeSection></HomeSection>
         </div>
 </div>
     );

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Category = () => {
   const { i18n } = useTranslation();
-  const lang = i18n.language; // "en", "bn", "hi"
+  const lang = i18n.language; 
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
@@ -15,8 +15,8 @@ const Category = () => {
   }, []);
 
   return (
-    <div className="p-4">
-      <h2 className="font-semibold text-xl mb-4">
+    <div className=" mt-3">
+      <h2 className="font-semibold text-xl mb-3 text-center  text-black bg-green-600 pl-30 pr-30 w-full">
         {lang === "bn"
           ? "সকল শ্রেণী"
           : lang === "hi"
