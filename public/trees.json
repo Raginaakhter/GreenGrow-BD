@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "name": { "bn": "আম", "en": "Mango", "hi": "आम" },
+    "category": "fol",
+    "price": 150,
+    "description": { "bn": "মিষ্টি ও রসালো আম।", "en": "Sweet and juicy mango.", "hi": "मीठा और रसीला आम।" },
+    "benefits": { "bn": "ভিটামিন C সমৃদ্ধ।", "en": "Rich in Vitamin C.", "hi": "विटामिन C से भरपूर।" },
+    "image": "https://images.unsplash.com/photo-1590080878606-872ed0d1d011?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 2,
+    "name": { "bn": "পেঁপে", "en": "Papaya", "hi": "पपीता" },
+    "category": "fol",
+    "price": 120,
+    "description": { "bn": "পাকা পেঁপে হজমে ভালো।", "en": "Ripe papaya aids digestion.", "hi": "पका पपीता पाचन में मदद करता है।" },
+    "benefits": { "bn": "পেটের সমস্যা কমায়।", "en": "Reduces stomach issues.", "hi": "पेट की समस्याएं कम करता है।" },
+    "image": "https://images.unsplash.com/photo-1582515073490-399813ba6c0b?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 3,
+    "name": { "bn": "ধান", "en": "Rice", "hi": "चावल" },
+    "category": "dhan",
+    "price": 60,
+    "description": { "bn": "স্থানীয় ধান, দ্রুত বৃদ্ধি।", "en": "Local rice seedlings, grow fast.", "hi": "स्थानीय धान के पौधे, जल्दी बढ़ते हैं।" },
+    "benefits": { "bn": "খাবারের প্রধান উৎস।", "en": "Main food source.", "hi": "मुख्य भोजन स्रोत।" },
+    "image": "https://images.unsplash.com/photo-1580910051071-df6a0b9e5f32?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 4,
+    "name": { "bn": "আলু", "en": "Potato", "hi": "आलू" },
+    "category": "sobji",
+    "price": 40,
+    "description": { "bn": "সাধারণ সবজি।", "en": "Common vegetable.", "hi": "सामान्य सब्जी।" },
+    "benefits": { "bn": "শক্তি দেয়।", "en": "Provides energy.", "hi": "ऊर्जा देता है।" },
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 5,
+    "name": { "bn": "তুলসি", "en": "Tulsi", "hi": "तुलसी" },
+    "category": "osodhi",
+    "price": 80,
+    "description": { "bn": "ঔষধি গাছ।", "en": "Medicinal plant.", "hi": "औषधीय पौधा।" },
+    "benefits": { "bn": "কাশি-সর্দির জন্য উপকারী।", "en": "Good for cold and cough.", "hi": "सर्दी और खांसी के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1592861953794-37fd65e5fa05?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 6,
+    "name": { "bn": "কমলা", "en": "Orange", "hi": "संतरा" },
+    "category": "fol",
+    "price": 100,
+    "description": { "bn": "রসালো কমলা।", "en": "Juicy orange.", "hi": "रसदार संतरा।" },
+    "benefits": { "bn": "ইমিউনিটি বাড়ায়।", "en": "Boosts immunity.", "hi": "इम्युनिटी बढ़ाता है।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 7,
+    "name": { "bn": "লিচু", "en": "Lychee", "hi": "लीची" },
+    "category": "fol",
+    "price": 200,
+    "description": { "bn": "মিষ্টি লিচু।", "en": "Sweet lychee.", "hi": "मीठा लीची।" },
+    "benefits": { "bn": "পুষ্টিকর।", "en": "Nutritious.", "hi": "पौष्टिक।" },
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 8,
+    "name": { "bn": "পেঁয়াজ", "en": "Onion", "hi": "प्याज" },
+    "category": "sobji",
+    "price": 30,
+    "description": { "bn": "প্রতিদিনের রান্নার সবজি।", "en": "Daily used vegetable.", "hi": "दैनिक इस्तेमाल वाली सब्जी।" },
+    "benefits": { "bn": "ইমিউনিটি বাড়ায়।", "en": "Boosts immunity.", "hi": "रोग प्रतिरोधक क्षमता बढ़ाता है।" },
+    "image": "https://images.unsplash.com/photo-1584270354949-14f555b3ec72?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 9,
+    "name": { "bn": "রসুন", "en": "Garlic", "hi": "लहसुन" },
+    "category": "sobji",
+    "price": 50,
+    "description": { "bn": "সুপারফুড।", "en": "Superfood.", "hi": "सुपरफूड।" },
+    "benefits": { "bn": "রক্তচাপ নিয়ন্ত্রণ করে।", "en": "Controls blood pressure.", "hi": "रक्तचाप नियंत्रित करता है।" },
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 10,
+    "name": { "bn": "লেবু", "en": "Lemon", "hi": "नींबू" },
+    "category": "fol",
+    "price": 70,
+    "description": { "bn": "রসালো লেবু।", "en": "Juicy lemon.", "hi": "रसदार नींबू।" },
+    "benefits": { "bn": "হজমে সাহায্য করে।", "en": "Aids digestion.", "hi": "पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1571046812500-1c2890d78972?auto=format&fit=crop&w=150&q=80"
+  },
+
+
+  {
+    "id": 11,
+    "name": { "bn": "কাঁঠাল", "en": "Jackfruit", "hi": "कटहल" },
+    "category": "fol",
+    "price": 180,
+    "description": { "bn": "বড় মিষ্টি ফল।", "en": "Large sweet fruit.", "hi": "बड़ा मीठा फल।" },
+    "benefits": { "bn": "ভিটামিন ও ফাইবার সমৃদ্ধ।", "en": "Rich in vitamins and fiber.", "hi": "विटामिन और फाइबर से भरपूर।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 12,
+    "name": { "bn": "কলা", "en": "Banana", "hi": "केला" },
+    "category": "fol",
+    "price": 50,
+    "description": { "bn": "সুস্বাদু কলা।", "en": "Tasty banana.", "hi": "स्वादिष्ट केला।" },
+    "benefits": { "bn": "শক্তি দেয়, হজম সহজ করে।", "en": "Gives energy, aids digestion.", "hi": "ऊर्जा देता है, पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1574226516831-e1dff420e8f8?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 13,
+    "name": { "bn": "কিউই", "en": "Kiwi", "hi": "कीवी" },
+    "category": "fol",
+    "price": 220,
+    "description": { "bn": "চকচকে সবুজ ফল।", "en": "Shiny green fruit.", "hi": "चमकदार हरा फल।" },
+    "benefits": { "bn": "ভিটামিন C সমৃদ্ধ।", "en": "Rich in Vitamin C.", "hi": "विटामिन C से भरपूर।" },
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 14,
+    "name": { "bn": "টমেটো", "en": "Tomato", "hi": "टमाटर" },
+    "category": "sobji",
+    "price": 35,
+    "description": { "bn": "রান্নায় ব্যবহৃত মূল সবজি।", "en": "Essential cooking vegetable.", "hi": "खाने में इस्तेमाल होने वाली मुख्य सब्जी।" },
+    "benefits": { "bn": "ত্বকের জন্য ভালো।", "en": "Good for skin.", "hi": "त्वचा के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1571046812500-1c2890d78972?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 15,
+    "name": { "bn": "শশা", "en": "Cucumber", "hi": "खीरा" },
+    "category": "sobji",
+    "price": 25,
+    "description": { "bn": "ঠাণ্ডা ও সতেজ রাখে।", "en": "Keeps you cool and fresh.", "hi": "ठंडा और ताज़गी देता है।" },
+    "benefits": { "bn": "ত্বকের জন্য উপকারী।", "en": "Good for skin.", "hi": "त्वचा के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1584270354949-14f555b3ec72?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 16,
+    "name": { "bn": "মরিচ", "en": "Chili", "hi": "मिर्च" },
+    "category": "sobji",
+    "price": 20,
+    "description": { "bn": "মশলাদার সবজি।", "en": "Spicy vegetable.", "hi": "मसालेदार सब्ज़ी।" },
+    "benefits": { "bn": "হজমে সাহায্য করে।", "en": "Aids digestion.", "hi": "पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 17,
+    "name": { "bn": "পেয়ারা", "en": "Guava", "hi": "अमरूद" },
+    "category": "fol",
+    "price": 90,
+    "description": { "bn": "মিষ্টি এবং খাস্তা।", "en": "Sweet and crunchy.", "hi": "मीठा और करारा।" },
+    "benefits": { "bn": "ভিটামিন C সমৃদ্ধ।", "en": "Rich in Vitamin C.", "hi": "विटामिन C से भरपूर।" },
+    "image": "https://images.unsplash.com/photo-1590080878606-872ed0d1d011?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 18,
+    "name": { "bn": "বেদানা", "en": "Grapes", "hi": "अंगूर" },
+    "category": "fol",
+    "price": 160,
+    "description": { "bn": "ছোট রসালো ফল।", "en": "Small juicy fruit.", "hi": "छोटा और रसीला फल।" },
+    "benefits": { "bn": "হৃদয়ের জন্য ভালো।", "en": "Good for heart.", "hi": "हृदय के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 19,
+    "name": { "bn": "আমড়া", "en": "Amla", "hi": "आंवला" },
+    "category": "fol",
+    "price": 70,
+    "description": { "bn": "ভিটামিন C সমৃদ্ধ ফল।", "en": "Rich in Vitamin C.", "hi": "विटामिन C से भरपूर फल।" },
+    "benefits": { "bn": "রোগপ্রতিরোধ ক্ষমতা বাড়ায়।", "en": "Boosts immunity.", "hi": "रोग प्रतिरोधक क्षमता बढ़ाता है।" },
+    "image": "https://images.unsplash.com/photo-1582515073490-399813ba6c0b?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 20,
+    "name": { "bn": "লাউ", "en": "Bottle Gourd", "hi": "लौकी" },
+    "category": "sobji",
+    "price": 35,
+    "description": { "bn": "সাধারণ সবজি।", "en": "Common vegetable.", "hi": "सामान्य सब्ज़ी।" },
+    "benefits": { "bn": "হজমে সাহায্য করে।", "en": "Aids digestion.", "hi": "पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1571046812500-1c2890d78972?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 21,
+    "name": { "bn": "পটল", "en": "Pointed Gourd", "hi": "परवल" },
+    "category": "sobji",
+    "price": 40,
+    "description": { "bn": "রান্নার জন্য ভালো।", "en": "Good for cooking.", "hi": "खाने के लिए अच्छा।" },
+    "benefits": { "bn": "হজমে সাহায্য করে।", "en": "Aids digestion.", "hi": "पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 22,
+    "name": { "bn": "পেয়ারা", "en": "Papaya Tree", "hi": "पपीता पेड़" },
+    "category": "fol",
+    "price": 110,
+    "description": { "bn": "রসালো ফল দেয়।", "en": "Gives juicy fruits.", "hi": "रसदार फल देता है।" },
+    "benefits": { "bn": "পুষ্টিকর।", "en": "Nutritious.", "hi": "पौष्टिक।" },
+    "image": "https://images.unsplash.com/photo-1582515073490-399813ba6c0b?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 23,
+    "name": { "bn": "আনারস", "en": "Pineapple", "hi": "अनानास" },
+    "category": "fol",
+    "price": 200,
+    "description": { "bn": "মিষ্টি এবং রসালো।", "en": "Sweet and juicy.", "hi": "मीठा और रसीला।" },
+    "benefits": { "bn": "হজম সহজ করে।", "en": "Aids digestion.", "hi": "पाचन में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 24,
+    "name": { "bn": "পেয়ারা লিচু", "en": "Guava Lychee", "hi": "अमरूद लीची" },
+    "category": "fol",
+    "price": 180,
+    "description": { "bn": "মিশ্র ফল।", "en": "Mixed fruit.", "hi": "मिश्रित फल।" },
+    "benefits": { "bn": "পুষ্টিকর।", "en": "Nutritious.", "hi": "पौष्टिक।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 25,
+    "name": { "bn": "কাঁকড়া", "en": "Crab Apple", "hi": "क्रैब एप्पल" },
+    "category": "fol",
+    "price": 140,
+    "description": { "bn": "ছোট মিষ্টি ফল।", "en": "Small sweet fruit.", "hi": "छोटा मीठा फल।" },
+    "benefits": { "bn": "ভিটামিন C সমৃদ্ধ।", "en": "Rich in Vitamin C.", "hi": "विटामिन C से भरपूर।" },
+    "image": "https://images.unsplash.com/photo-1590080878606-872ed0d1d011?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 26,
+    "name": { "bn": "বদাম", "en": "Almond", "hi": "बादाम" },
+    "category": "full",
+    "price": 300,
+    "description": { "bn": "পুষ্টিকর বাদাম।", "en": "Nutritious almond.", "hi": "पौष्टिक बादाम।" },
+    "benefits": { "bn": "মস্তিষ্কের জন্য ভালো।", "en": "Good for brain.", "hi": "मस्तिष्क के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1584270354949-14f555b3ec72?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 27,
+    "name": { "bn": "কাঁঠাল ফুল", "en": "Jackfruit Flower", "hi": "कटहल का फूल" },
+    "category": "full",
+    "price": 120,
+    "description": { "bn": "ভোজনযোগ্য ফুল।", "en": "Edible flower.", "hi": "खाने योग्य फूल।" },
+    "benefits": { "bn": "রক্তচাপ নিয়ন্ত্রণে সাহায্য করে।", "en": "Helps control blood pressure.", "hi": "रक्तचाप नियंत्रित करने में मदद करता है।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 28,
+    "name": { "bn": "মরিচ ফুল", "en": "Chili Flower", "hi": "मिर्च का फूल" },
+    "category": "full",
+    "price": 50,
+    "description": { "bn": "রান্নার জন্য ব্যবহার।", "en": "Used in cooking.", "hi": "खाने में इस्तेमाल।" },
+    "benefits": { "bn": "স্বাদ বাড়ায়।", "en": "Enhances taste.", "hi": "स्वाद बढ़ाता है।" },
+    "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 29,
+    "name": { "bn": "মাল্টা", "en": "Sweet Orange", "hi": "मीठा संतरा" },
+    "category": "fol",
+    "price": 120,
+    "description": { "bn": "মিষ্টি কমলা।", "en": "Sweet orange.", "hi": "मीठा संतरा।" },
+    "benefits": { "bn": "ইমিউনিটি বাড়ায়।", "en": "Boosts immunity.", "hi": "इम्युनिटी बढ़ाता है।" },
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": 30,
+    "name": { "bn": "চেরি", "en": "Cherry", "hi": "चेरी" },
+    "category": "fol",
+    "price": 250,
+    "description": { "bn": "ছোট রসালো ফল।", "en": "Small juicy fruit.", "hi": "छोटा और रसीला फल।" },
+    "benefits": { "bn": "হৃদয়কে সুস্থ রাখে।", "en": "Good for heart.", "hi": "हृदय के लिए अच्छा।" },
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=150&q=80"
+  },
+
+  {
+    "id": 31,
+    "name": { "bn": "আমগাছ", "en": "Mango Tree", "hi": "आम का पेड़" },
+    "category": "tree-fruit",
+    "price": 350,
+    "description": { "bn": "মিষ্টি আম দেয়।", "en": "Gives sweet mangoes.", "hi": "मिठा आम देता है।" },
+    "benefits": { "bn": "ছায়া এবং ফল দেয়।", "en": "Provides shade and fruit.", "hi": "छाया और फल देता है।" },
+    "image": "https://example.com/images/mango-tree2.jpg"
+  },
+  {
+    "id": 32,
+    "name": { "bn": "পেয়ারা গাছ", "en": "Guava Tree", "hi": "अमरूद का पेड़" },
+    "category": "tree-fruit",
+    "price": 320,
+    "description": { "bn": "মিষ্টি পেয়ারা দেয়।", "en": "Gives sweet guavas.", "hi": "मिठा अमरूद देता है।" },
+    "benefits": { "bn": "ফল এবং ছায়া দেয়।", "en": "Provides fruit and shade.", "hi": "फल और छाया देता है।" },
+    "image": "https://example.com/images/guava-tree2.jpg"
+  },
+  {
+    "id": 33,
+    "name": { "bn": "লেবু গাছ", "en": "Lemon Tree", "hi": "नींबू का पेड़" },
+    "category": "tree-fruit",
+    "price": 280,
+    "description": { "bn": "টক লেবু দেয়।", "en": "Gives tangy lemons.", "hi": "खट्टे नींबू देता है।" },
+    "benefits": { "bn": "ডিটক্সে সাহায্য করে।", "en": "Helps in detox.", "hi": "डिटॉक्स में मदद करता है।" },
+    "image": "https://example.com/images/lemon-tree.jpg"
+  },
+  {
+    "id": 34,
+    "name": { "bn": "আমলকি গাছ", "en": "Amla Tree", "hi": "आंवला का पेड़" },
+    "category": "tree-fruit",
+    "price": 300,
+    "description": { "bn": "ভিটামিন C সমৃদ্ধ আমলকি দেয়।", "en": "Gives Vitamin C rich amla.", "hi": "विटामिन C से भरपूर आंवला देता है।" },
+    "benefits": { "bn": "ইমিউনিটি বাড়ায়।", "en": "Boosts immunity.", "hi": "प्रतिरक्षा बढ़ाता है।" },
+    "image": "https://example.com/images/amla-tree.jpg"
+  },
+  {
+    "id": 35,
+    "name": { "bn": "ডালিম গাছ", "en": "Pomegranate Tree", "hi": "अनार का पेड़" },
+    "category": "tree-fruit",
+    "price": 400,
+    "description": { "bn": "লাল রঙের ডালিম দেয়।", "en": "Gives red pomegranates.", "hi": "लाल अनार देता है।" },
+    "benefits": { "bn": "রক্ত বৃদ্ধিতে সাহায্য করে।", "en": "Helps blood health.", "hi": "रक्त स्वास्थ्य में मदद करता है।" },
+    "image": "https://example.com/images/pomegranate-tree.jpg"
+  },
+  {
+    "id": 36,
+    "name": { "bn": "কলা গাছ", "en": "Banana Tree", "hi": "केला का पेड़" },
+    "category": "tree-fruit",
+    "price": 250,
+    "description": { "bn": "মিষ্টি কলা দেয়।", "en": "Gives sweet bananas.", "hi": "मिठा केला देता है।" },
+    "benefits": { "bn": "পটাশিয়াম সমৃদ্ধ।", "en": "Rich in potassium.", "hi": "पोटेशियम से भरपूर।" },
+    "image": "https://example.com/images/banana-tree.jpg"
+  },
+  {
+    "id": 37,
+    "name": { "bn": "কাঁঠাল গাছ", "en": "Jackfruit Tree", "hi": "कटहल का पेड़" },
+    "category": "tree-fruit",
+    "price": 450,
+    "description": { "bn": "বড় মিষ্টি কাঁঠাল দেয়।", "en": "Gives big sweet jackfruit.", "hi": "बड़ा मीठा कटहल देता है।" },
+    "benefits": { "bn": "ফাইবার সমৃদ্ধ।", "en": "Rich in fiber.", "hi": "फाइबर से भरपूर।" },
+    "image": "https://example.com/images/jackfruit-tree.jpg"
+  },
+  {
+    "id": 38,
+    "name": { "bn": "নারিকেল গাছ", "en": "Coconut Tree", "hi": "नारियल का पेड़" },
+    "category": "tree-fruit",
+    "price": 380,
+    "description": { "bn": "স্বাস্থ্যকর নারিকেল দেয়।", "en": "Gives healthy coconuts.", "hi": "स्वस्थ नारियल देता है।" },
+    "benefits": { "bn": "ত্বকের জন্য ভালো।", "en": "Good for skin.", "hi": "त्वचा के लिए अच्छा।" },
+    "image": "https://example.com/images/coconut-tree.jpg"
+  },
+  {
+    "id": 39,
+    "name": { "bn": "স্ট্রবেরি গাছ", "en": "Strawberry Plant", "hi": "स्ट्रॉबेरी पौधा" },
+    "category": "tree-fruit",
+    "price": 220,
+    "description": { "bn": "মিষ্টি স্ট্রবেরি দেয়।", "en": "Gives sweet strawberries.", "hi": "मिठा स्ट्रॉबेरी देता है।" },
+    "benefits": { "bn": "রক্ত বৃদ্ধি করে।", "en": "Boosts blood health.", "hi": "रक्त स्वास्थ्य बढ़ाता है।" },
+    "image": "https://example.com/images/strawberry-plant.jpg"
+  }
+]

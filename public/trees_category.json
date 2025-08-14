@@ -1,0 +1,42 @@
+{
+  "status": true,
+  "data": {
+    "trees_category": [
+      { 
+        "category_id": "01", 
+        "category_name": { "bn": "ফল", "en": "Fruit", "hi": "फल" },
+        "image": "https://example.com/images/fruit-category.jpg"
+      },
+      { 
+        "category_id": "02", 
+        "category_name": { "bn": "ফুল", "en": "Flower", "hi": "फूल" },
+        "image": "https://example.com/images/flower-category.jpg"
+      },
+      { 
+        "category_id": "03", 
+        "category_name": { "bn": "সবজি", "en": "Vegetable", "hi": "सब्ज़ी" },
+        "image": "https://example.com/images/vegetable-category.jpg"
+      },
+      { 
+        "category_id": "04", 
+        "category_name": { "bn": "ধান", "en": "Rice", "hi": "चावल" },
+        "image": "https://example.com/images/rice-category.jpg"
+      },
+      { 
+        "category_id": "05", 
+        "category_name": { "bn": "ওষুধি", "en": "Medicinal", "hi": "औषधीय" },
+        "image": "https://example.com/images/medicinal-category.jpg"
+      },
+      { 
+        "category_id": "06", 
+        "category_name": { "bn": "বাদাম", "en": "Nut", "hi": "नट" },
+        "image": "https://example.com/images/nut-category.jpg"
+      },
+      { 
+        "category_id": "07", 
+        "category_name": { "bn": "ছায়া দায়ী", "en": "Shade Tree", "hi": "छाया देने वाला पेड़" },
+        "image": "https://example.com/images/shade-category.jpg"
+      }
+    ]
+  }
+}
