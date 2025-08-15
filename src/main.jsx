@@ -11,6 +11,10 @@ import Home from './Pages/Home.jsx';
 import Shop from './Pages/Shop.jsx';
 import Contact from './Pages/Contact.jsx';
 import Login from './Pages/Login.jsx';
+import Register from './components/Register.jsx';
+import AuthProvider from './provider/AuthProvider.jsx';
+
+
 
 
 const router = createBrowserRouter([
@@ -19,7 +23,7 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       { path: "/", element: <Home /> },
-     
+
       // All products
       { path: "/shop", element: <Shop /> },
 
@@ -27,7 +31,8 @@ const router = createBrowserRouter([
       { path: "/shop/:categoryId", element: <Shop /> },
       { path: "/contact", element: <Contact></Contact> },
 
- { path: "/login", element: <Login></Login> },
+      { path: "/login", element: <Login /> },
+       { path: "/register", element: <Register></Register> },
 
     ],
   },
@@ -35,6 +40,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <Suspense fallback={<div>Loading...</div>}>
-    <RouterProvider router={router} />
+    <AuthProvider>
+<RouterProvider router={router} />
+    </AuthProvider>
+    
   </Suspense>
 );
