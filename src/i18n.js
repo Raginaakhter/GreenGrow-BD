@@ -16,7 +16,7 @@ i18n
           shop: "Shop",
           contact: "Contact",
           search: "Search products...",
-          greeting: "Hello, Welcome to MyShop!",
+          greeting: "Hello, Welcome to GreenGrow BD!",
           hero_desc: "Planting a tree means planting life for the future.",
           hero_btn: "Shop Now",
           footer_text: "© 2025 MyShop. All rights reserved.",
@@ -33,7 +33,8 @@ i18n
     simple_queues_desc: "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     advanced_security: "Advanced security",
     advanced_security_desc: "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-        }
+            alphabet_stocks: "Alphabet Stocks",
+             }
       },
       bn: {
         translation: {
@@ -41,7 +42,7 @@ i18n
           shop: "দোকান",
           contact: "যোগাযোগ",
           search: "পণ্য খুঁজুন...",
-          greeting: "হ্যালো, মাইশপে স্বাগতম!",
+          greeting: "হ্যালো, GreenGrow BD!",
           hero_desc: "গাছ রোপণ করা মানে, ভবিষ্যতের জন্য জীবন বপন করা।",
           hero_btn: "এখনই কিনুন",
           footer_text: "© ২০২৫ মাইশপ। সর্বস্বত্ব সংরক্ষিত।",
@@ -85,7 +86,7 @@ i18n
           shop: "दुकान",
           contact: "संपर्क",
           search: "उत्पाद खोजें...",
-          greeting: "नमस्ते, मायशॉप में आपका स्वागत है!",
+          greeting: "नमस्ते, GreenGrow BD!",
           hero_desc: "एक पेड़ लगाना भविष्य के लिए जीवन लगाना है।",
           hero_btn: "अभी खरीदें",
           footer_text: "© 2025 मायशॉप। सर्वाधिकार सुरक्षित।",

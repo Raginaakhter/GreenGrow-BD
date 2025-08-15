@@ -20,42 +20,42 @@ const Contact = () => {
           <div>
             <label htmlFor="first-name" className="block text-sm/6 font-semibold text-black">{t("first_name")}</label>
             <div className="mt-2.5">
-              <input id="first-name" type="text" name="first-name" autoComplete="given-name" placeholder={t("first_name_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+              <input id="first-name" type="text" name="first-name" autoComplete="given-name" placeholder={t("first_name_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1 outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
             </div>
           </div>
 
           <div>
             <label htmlFor="last-name" className="block text-sm/6 font-semibold text-black">{t("last_name")}</label>
             <div className="mt-2.5">
-              <input id="last-name" type="text" name="last-name" autoComplete="family-name" placeholder={t("last_name_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+              <input id="last-name" type="text" name="last-name" autoComplete="family-name" placeholder={t("last_name_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1 outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
             </div>
           </div>
 
           <div className="sm:col-span-2">
             <label htmlFor="company" className="block text-sm/6 font-semibold text-black">{t("company")}</label>
             <div className="mt-2.5">
-              <input id="company" type="text" name="company" autoComplete="organization" placeholder={t("company_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+              <input id="company" type="text" name="company" autoComplete="organization" placeholder={t("company_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1 outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
             </div>
           </div>
 
           <div className="sm:col-span-2">
             <label htmlFor="email" className="block text-sm/6 font-semibold text-black">{t("email")}</label>
             <div className="mt-2.5">
-              <input id="email" type="email" name="email" autoComplete="email" placeholder={t("email_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+              <input id="email" type="email" name="email" autoComplete="email" placeholder={t("email_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1  outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
             </div>
           </div>
 
           <div className="sm:col-span-2">
             <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-black">{t("phone_number")}</label>
             <div className="mt-2.5">
-              <input id="phone-number" type="text" name="phone-number" placeholder={t("phone_number_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+              <input id="phone-number" type="text" name="phone-number" placeholder={t("phone_number_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1 outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
             </div>
           </div>
 
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm/6 font-semibold text-black">{t("message")}</label>
             <div className="mt-2.5">
-              <textarea id="message" name="message" rows="4" placeholder={t("message_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
+              <textarea id="message" name="message" rows="4" placeholder={t("message_placeholder")} className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-black outline-1 -outline-offset-1 outline-black placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
             </div>
           </div>
         </div>

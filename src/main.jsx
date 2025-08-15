@@ -10,6 +10,7 @@ import Root from './Root.jsx';
 import Home from './Pages/Home.jsx';
 import Shop from './Pages/Shop.jsx';
 import Contact from './Pages/Contact.jsx';
+import Login from './Pages/Login.jsx';
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,9 @@ const router = createBrowserRouter([
       // Filtered by category
       { path: "/shop/:categoryId", element: <Shop /> },
       { path: "/contact", element: <Contact></Contact> },
+
+ { path: "/login", element: <Login></Login> },
+
     ],
   },
 ]);
