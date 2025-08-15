@@ -511,6 +511,7 @@ import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Login from "./Pages/Login";
+import LoginButton from "./components/LoginButton";
 
 
 const Navbar = () => {
@@ -608,15 +609,30 @@ const Navbar = () => {
 
           {/* Login */}
           <motion.li whileHover={{ scale: 1.05 }}>
-            {/* <Login/> */}
-            <Link to ="/login">
-              <button
 
-                className="bg-green-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md transition-all duration-200"
-              >
-                {t("Login")}
-              </button>
-            </Link>
+            {/* .......................................................... */}
+            {/* <Login/> */}
+
+
+        
+{/* {
+  user && user?.email ? (
+    ""
+  ) : (
+    <Link to="/login">
+      <button className="bg-green-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md transition-all duration-200">
+        {t("Login")}
+      </button>
+    </Link>
+  )
+} */}
+
+<LoginButton></LoginButton>
+
+
+
+
+            {/* ..................................................... */}
           </motion.li>
 
           {/* Language Dropdown */}

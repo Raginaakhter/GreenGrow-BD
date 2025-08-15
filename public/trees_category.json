@@ -5,37 +5,37 @@
       { 
         "category_id": "01", 
         "category_name": { "bn": "ফল", "en": "Fruit", "hi": "फल" },
-        "image": "https://example.com/images/fruit-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5rGAYo0IfaL0D8tLXb23tuAMOWC2viTpefQ&s"
       },
       { 
         "category_id": "02", 
         "category_name": { "bn": "ফুল", "en": "Flower", "hi": "फूल" },
-        "image": "https://example.com/images/flower-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTdX9yzIoq2hnzUIVM3_jJa9DYHZJ15KtIdA&s"
       },
       { 
         "category_id": "03", 
         "category_name": { "bn": "সবজি", "en": "Vegetable", "hi": "सब्ज़ी" },
-        "image": "https://example.com/images/vegetable-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm3mUQxvwx1g03wFdDRgwBqV503a0449Varru-p4190PHzZpN-BHIIyR0FQDHTMVjyw-nD8MUAemLx43lzG-uISUghRj4b6YtGuvXVkgg"
       },
       { 
         "category_id": "04", 
         "category_name": { "bn": "ধান", "en": "Rice", "hi": "चावल" },
-        "image": "https://example.com/images/rice-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl8zuvgtN5xo-Bg3cu-kZPRi2kerIla6FuGxu55UPh9dq77ogEV9-44vk-NLHURrZRWLtcmhedCPsPhwbe-gY-ik0RA75fTjvMTSSeQQ"
       },
       { 
         "category_id": "05", 
         "category_name": { "bn": "ওষুধি", "en": "Medicinal", "hi": "औषधीय" },
-        "image": "https://example.com/images/medicinal-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9fMrQ4zoTL0fvpV-rLouSrLT9upd0bHrBVYuXKTSIhvqUANEpu1Vt_Z8A8ZJF84Q1rY0&usqp=CAU"
       },
       { 
         "category_id": "06", 
         "category_name": { "bn": "বাদাম", "en": "Nut", "hi": "नट" },
-        "image": "https://example.com/images/nut-category.jpg"
+        "image": "https://dmpnews.org/wp-content/uploads/2020/09/002-20.jpg"
       },
       { 
         "category_id": "07", 
         "category_name": { "bn": "ছায়া দায়ী", "en": "Shade Tree", "hi": "छाया देने वाला पेड़" },
-        "image": "https://example.com/images/shade-category.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTup-jwJDOecDrzySgQyFu5pqotOMZAnJMGXA&s"
       }
     ]
   }

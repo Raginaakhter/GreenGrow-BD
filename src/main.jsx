@@ -13,6 +13,7 @@ import Contact from './Pages/Contact.jsx';
 import Login from './Pages/Login.jsx';
 import Register from './components/Register.jsx';
 import AuthProvider from './provider/AuthProvider.jsx';
+import Cart from './Pages/Cart.jsx';
 
 
 
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       { path: "/shop/:categoryId", element: <Shop /> },
       { path: "/contact", element: <Contact></Contact> },
 
+  { path: "/cart", element:<Cart></Cart> },
       { path: "/login", element: <Login /> },
        { path: "/register", element: <Register></Register> },
 
